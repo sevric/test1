@@ -3,9 +3,11 @@
 let money = prompt("Ваш бюджет на месяц?", ),
     time = prompt("Введите дату в формате YYYY-MM-DD"),
 
-    mandatoryExpensesItem1 = prompt("Введите обязательную статью расходов в этом месяце"),
+    mandatoryExpensesItem1 = prompt(
+        "Введите обязательную статью расходов в этом месяце"),
     mandatoryExpensesItem1Value = prompt("Во сколько это обойдется?"),
-    mandatoryExpensesItem2 = prompt("Введите обязательную статью расходов в этом месяце"),
+    mandatoryExpensesItem2 = prompt(
+        "Введите обязательную статью расходов в этом месяце"),
     mandatoryExpensesItem2Value = prompt("Во сколько это обойдется?"),
 
     appData = {
