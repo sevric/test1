@@ -87,7 +87,7 @@ let appData = {
 
         do {
             items = prompt("Что принесет дополнительный доход? (Перечислите через запятую)", "");
-        } while ( isFinite(items) || (items == "") || (items == null) );
+        } while ( !isNaN(items) || (items == "") || (items == null) );
 
         appData.income = items.split(", ");
         appData.income.push( prompt("Может что-то еще?", "") );
